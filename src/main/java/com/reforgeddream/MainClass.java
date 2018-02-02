@@ -1,12 +1,12 @@
 package com.reforgeddream;
 
-import com.reforgeddream.gui.GuiClass;
+import com.reforgeddream.gui.MainForm;
 
 public class MainClass {
 
 	public static void main(String[] args) {
 		
-		GuiClass gui = new GuiClass();
+		MainForm gui = new MainForm();
 		gui.createDisplay();
 		
 	}
